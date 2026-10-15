@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <style>
+    
+    @keyframes ceTwinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+    @keyframes ceReveal { 0%, 5% { opacity: 0; transform: translateY(6px); } 18%, 90% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes ceWipe { 0%, 8% { transform: scaleX(0); } 24%, 90% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+
+    
+    .ce-eyebrow { animation: ceReveal 13s ease-out infinite; }
+    .ce-rule { animation: ceWipe 13s ease-out infinite; transform-box: fill-box; transform-origin: left center; animation-delay: 0.78s; }
+    .ce-card { animation: ceReveal 13s ease-out infinite; }
+    .ce-card-0 { animation-delay: 1.56s; }
+    .ce-card-1 { animation-delay: 2.08s; }
+    .ce-card-2 { animation-delay: 2.60s; }
+    .ce-card-3 { animation-delay: 3.12s; }
+    .ce-bar { animation: ceReveal 13s ease-out infinite; animation-delay: 3.64s; }
+    .ce-leg { animation: ceReveal 13s ease-out infinite; animation-delay: 4.16s; }
+    .ce-total { animation: ceReveal 13s ease-out infinite; animation-delay: 4.94s; }
+    
+  </style>
+
+  <defs>
+    <linearGradient id="ceSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a263f"/>
+      <stop offset="0.55" stop-color="#230d28"/>
+      <stop offset="1" stop-color="#120715"/>
+    </linearGradient>
+    <radialGradient id="ceVig" cx="0.5" cy="0.42" r="0.78">
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#ceSky)"/>
+  <circle cx="743" cy="298" r="1.01" fill="#eef2fb" opacity="0.74" style="animation: ceTwinkle 3.65s ease-in-out 2.18s infinite"/>
+  <circle cx="495" cy="283" r="0.46" fill="#eef2fb" opacity="0.34" style="animation: ceTwinkle 3.75s ease-in-out 1.31s infinite"/>
+  <circle cx="671" cy="7" r="1.54" fill="#eef2fb" opacity="0.59" style="animation: ceTwinkle 2.75s ease-in-out 2.48s infinite"/>
+  <circle cx="605" cy="220" r="0.44" fill="#eef2fb" opacity="0.47" style="animation: ceTwinkle 4.30s ease-in-out 0.03s infinite"/>
+  <circle cx="223" cy="16" r="1.07" fill="#eef2fb" opacity="0.37" style="animation: ceTwinkle 3.46s ease-in-out 2.86s infinite"/>
+  <circle cx="320" cy="271" r="0.51" fill="#eef2fb" opacity="0.74" style="animation: ceTwinkle 2.62s ease-in-out 2.29s infinite"/>
+  <circle cx="664" cy="228" r="0.53" fill="#eef2fb" opacity="0.77" style="animation: ceTwinkle 3.79s ease-in-out 2.64s infinite"/>
+  <circle cx="437" cy="84" r="1.59" fill="#eef2fb" opacity="0.41" style="animation: ceTwinkle 3.19s ease-in-out 0.68s infinite"/>
+  <circle cx="471" cy="33" r="1.44" fill="#eef2fb" opacity="0.40" style="animation: ceTwinkle 3.72s ease-in-out 2.90s infinite"/>
+  <circle cx="369" cy="292" r="1.25" fill="#eef2fb" opacity="0.39" style="animation: ceTwinkle 3.53s ease-in-out 2.91s infinite"/>
+  <circle cx="167" cy="290" r="1.52" fill="#eef2fb" opacity="0.35" style="animation: ceTwinkle 2.98s ease-in-out 2.49s infinite"/>
+  <circle cx="257" cy="299" r="1.02" fill="#eb6a00" opacity="0.64" style="animation: ceTwinkle 3.71s ease-in-out 1.63s infinite"/>
+  <circle cx="81" cy="39" r="1.40" fill="#eef2fb" opacity="0.76" style="animation: ceTwinkle 3.28s ease-in-out 1.29s infinite"/>
+  <circle cx="271" cy="54" r="1.41" fill="#eef2fb" opacity="0.37" style="animation: ceTwinkle 3.87s ease-in-out 0.10s infinite"/>
+  <circle cx="792" cy="37" r="0.71" fill="#eef2fb" opacity="0.67" style="animation: ceTwinkle 3.44s ease-in-out 1.59s infinite"/>
+  <circle cx="793" cy="110" r="1.34" fill="#eb6a00" opacity="0.34" style="animation: ceTwinkle 2.72s ease-in-out 1.02s infinite"/>
+  <circle cx="322" cy="242" r="0.93" fill="#eef2fb" opacity="0.65" style="animation: ceTwinkle 4.49s ease-in-out 1.81s infinite"/>
+  <circle cx="716" cy="43" r="0.73" fill="#eef2fb" opacity="0.64" style="animation: ceTwinkle 3.53s ease-in-out 2.62s infinite"/>
+  <circle cx="11" cy="55" r="1.49" fill="#eef2fb" opacity="0.51" style="animation: ceTwinkle 2.42s ease-in-out 2.55s infinite"/>
+  <circle cx="673" cy="162" r="1.00" fill="#eef2fb" opacity="0.36" style="animation: ceTwinkle 2.77s ease-in-out 2.58s infinite"/>
+  <circle cx="194" cy="288" r="1.31" fill="#eef2fb" opacity="0.47" style="animation: ceTwinkle 3.98s ease-in-out 0.61s infinite"/>
+  <circle cx="669" cy="192" r="0.68" fill="#eef2fb" opacity="0.68" style="animation: ceTwinkle 2.19s ease-in-out 2.84s infinite"/>
+  <circle cx="37" cy="63" r="0.66" fill="#eef2fb" opacity="0.77" style="animation: ceTwinkle 3.56s ease-in-out 2.17s infinite"/>
+  <circle cx="574" cy="175" r="0.74" fill="#eef2fb" opacity="0.73" style="animation: ceTwinkle 3.25s ease-in-out 2.91s infinite"/>
+  <circle cx="51" cy="176" r="1.35" fill="#eb6a00" opacity="0.43" style="animation: ceTwinkle 3.14s ease-in-out 0.12s infinite"/>
+  <circle cx="610" cy="71" r="1.38" fill="#eef2fb" opacity="0.57" style="animation: ceTwinkle 3.25s ease-in-out 2.16s infinite"/>
+  <circle cx="561" cy="2" r="0.76" fill="#eb6a00" opacity="0.50" style="animation: ceTwinkle 2.32s ease-in-out 0.15s infinite"/>
+  <circle cx="378" cy="134" r="0.89" fill="#eef2fb" opacity="0.60" style="animation: ceTwinkle 2.30s ease-in-out 2.14s infinite"/>
+  <circle cx="662" cy="67" r="0.83" fill="#eef2fb" opacity="0.78" style="animation: ceTwinkle 3.05s ease-in-out 0.91s infinite"/>
+  <circle cx="572" cy="87" r="0.50" fill="#eef2fb" opacity="0.62" style="animation: ceTwinkle 4.02s ease-in-out 1.58s infinite"/>
+  <circle cx="198" cy="272" r="0.43" fill="#eef2fb" opacity="0.79" style="animation: ceTwinkle 2.65s ease-in-out 2.47s infinite"/>
+  <circle cx="316" cy="109" r="0.81" fill="#eb6a00" opacity="0.79" style="animation: ceTwinkle 2.50s ease-in-out 0.30s infinite"/>
+  <circle cx="30" cy="114" r="1.18" fill="#eb6a00" opacity="0.74" style="animation: ceTwinkle 3.19s ease-in-out 2.05s infinite"/>
+  <circle cx="24" cy="183" r="0.58" fill="#eef2fb" opacity="0.38" style="animation: ceTwinkle 4.46s ease-in-out 0.35s infinite"/>
+  <circle cx="687" cy="124" r="0.58" fill="#eef2fb" opacity="0.38" style="animation: ceTwinkle 2.86s ease-in-out 0.19s infinite"/>
+  <circle cx="47" cy="208" r="1.14" fill="#eef2fb" opacity="0.35" style="animation: ceTwinkle 3.61s ease-in-out 2.18s infinite"/>
+  <circle cx="539" cy="215" r="0.40" fill="#eef2fb" opacity="0.61" style="animation: ceTwinkle 4.31s ease-in-out 1.91s infinite"/>
+  <circle cx="360" cy="89" r="0.53" fill="#eef2fb" opacity="0.55" style="animation: ceTwinkle 3.16s ease-in-out 2.41s infinite"/>
+  <circle cx="437" cy="261" r="1.06" fill="#eb6a00" opacity="0.54" style="animation: ceTwinkle 3.62s ease-in-out 0.18s infinite"/>
+  <circle cx="675" cy="296" r="1.48" fill="#eef2fb" opacity="0.54" style="animation: ceTwinkle 3.44s ease-in-out 1.05s infinite"/>
+  <rect width="800" height="300" fill="url(#ceVig)"/>
+
+  <!-- eyebrow -->
+  <g class="ce-eyebrow">
+    <path d="M 54 51 L 55.3 54.7 L 59 56 L 55.3 57.3 L 54 61 L 52.7 57.3 L 49 56 L 52.7 54.7 Z" fill="#eb6a00"/>
+    <text x="70" y="61" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="3.5">OBSERVATORY LOG</text>
+    <text x="752" y="61" text-anchor="end" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="1.5">@GITHUB-USER</text>
+  </g>
+  <rect class="ce-rule" x="48" y="74" width="704" height="1" fill="#eb6a00" opacity="0.5"/>
+
+  <!-- stat cards -->
+  <g class="ce-card ce-card-0">
+      <path d="M 51 92.5 L 51.91 95.09 L 54.5 96 L 51.91 96.91 L 51 99.5 L 50.09 96.91 L 47.5 96 L 50.09 95.09 Z" fill="#eb6a00"/>
+      <text x="48" y="124" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">—</text>
+      <text x="49" y="144" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2">REPOS</text>
+      <text x="49" y="160" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="1">LOAD GITHUB</text>
+    </g>
+  <g class="ce-card ce-card-1">
+      <path d="M 231 92.5 L 231.91 95.09 L 234.5 96 L 231.91 96.91 L 231 99.5 L 230.09 96.91 L 227.5 96 L 230.09 95.09 Z" fill="#eb6a00"/>
+      <text x="228" y="124" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">—</text>
+      <text x="229" y="144" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2">COMMITS</text>
+      <text x="229" y="160" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="1">THIS YEAR</text>
+    </g>
+  <g class="ce-card ce-card-2">
+      <path d="M 411 92.5 L 411.91 95.09 L 414.5 96 L 411.91 96.91 L 411 99.5 L 410.09 96.91 L 407.5 96 L 410.09 95.09 Z" fill="#eb6a00"/>
+      <text x="408" y="124" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">—</text>
+      <text x="409" y="144" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2">PRS</text>
+      <text x="409" y="160" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="1">AUTHORED</text>
+    </g>
+  <g class="ce-card ce-card-3">
+      <path d="M 591 92.5 L 591.91 95.09 L 594.5 96 L 591.91 96.91 L 591 99.5 L 590.09 96.91 L 587.5 96 L 590.09 95.09 Z" fill="#eb6a00"/>
+      <text x="588" y="124" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">—</text>
+      <text x="589" y="144" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2">REVIEWS</text>
+      <text x="589" y="160" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="1">THIS YEAR</text>
+    </g>
+
+  <!-- language spectrum -->
+  <text class="ce-bar" x="48" y="194" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="10" letter-spacing="2">LANGUAGE SPECTRUM</text>
+  <g class="ce-bar"><rect x="48" y="206" width="704" height="10" rx="5" fill="#eb6a00" fill-opacity="0.18"/></g>
+  <g class="ce-leg"><g><rect x="48" y="228" width="9" height="9" fill="#c7a8ff"/>
+      <text x="63" y="237" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="11">load github</text></g></g>
+
+  <!-- contribution total -->
+  <g class="ce-total">
+    <text x="400" y="272" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"><tspan fill="#eef2fb" font-size="16" font-weight="700">—</tspan><tspan fill="#c7a8ff" font-size="12" letter-spacing="1"> contributions in the past year</tspan></text>
+  </g>
+</svg>

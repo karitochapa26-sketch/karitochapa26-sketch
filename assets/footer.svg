@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <style>
+    
+    @keyframes ceTwinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+    @keyframes ceReveal { 0%, 5% { opacity: 0; transform: translateY(6px); } 18%, 90% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes ceWipe { 0%, 8% { transform: scaleX(0); } 24%, 90% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+
+    
+    .ce-div { animation: ceReveal 13s ease-out infinite; }
+    .ce-eyebrow { animation: ceReveal 13s ease-out infinite; animation-delay: 0.78s; }
+    .ce-name { animation: ceReveal 13s ease-out infinite; animation-delay: 1.56s; }
+    .ce-socials { animation: ceReveal 13s ease-out infinite; animation-delay: 2.60s; }
+    .ce-credit { animation: ceReveal 13s ease-out infinite; animation-delay: 3.64s; }
+    
+  </style>
+
+  <defs>
+    <linearGradient id="ceSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a263f"/>
+      <stop offset="0.55" stop-color="#230d28"/>
+      <stop offset="1" stop-color="#120715"/>
+    </linearGradient>
+    <radialGradient id="ceVig" cx="0.5" cy="0.42" r="0.78">
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#ceSky)"/>
+  <circle cx="478" cy="171" r="1.06" fill="#eef2fb" opacity="0.44" style="animation: ceTwinkle 4.33s ease-in-out 2.93s infinite"/>
+  <circle cx="520" cy="104" r="1.28" fill="#eef2fb" opacity="0.45" style="animation: ceTwinkle 2.08s ease-in-out 2.39s infinite"/>
+  <circle cx="96" cy="38" r="0.56" fill="#eb6a00" opacity="0.69" style="animation: ceTwinkle 2.20s ease-in-out 0.61s infinite"/>
+  <circle cx="314" cy="131" r="1.58" fill="#eb6a00" opacity="0.44" style="animation: ceTwinkle 2.30s ease-in-out 0.98s infinite"/>
+  <circle cx="324" cy="37" r="0.52" fill="#eef2fb" opacity="0.39" style="animation: ceTwinkle 2.61s ease-in-out 1.66s infinite"/>
+  <circle cx="679" cy="100" r="1.18" fill="#eef2fb" opacity="0.49" style="animation: ceTwinkle 3.76s ease-in-out 2.04s infinite"/>
+  <circle cx="749" cy="67" r="1.21" fill="#eef2fb" opacity="0.69" style="animation: ceTwinkle 2.63s ease-in-out 1.01s infinite"/>
+  <circle cx="418" cy="78" r="0.75" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 2.58s ease-in-out 0.62s infinite"/>
+  <circle cx="164" cy="128" r="1.52" fill="#eef2fb" opacity="0.38" style="animation: ceTwinkle 2.31s ease-in-out 1.80s infinite"/>
+  <circle cx="206" cy="165" r="0.80" fill="#eef2fb" opacity="0.66" style="animation: ceTwinkle 4.14s ease-in-out 0.21s infinite"/>
+  <circle cx="308" cy="123" r="1.47" fill="#eef2fb" opacity="0.54" style="animation: ceTwinkle 2.30s ease-in-out 2.98s infinite"/>
+  <circle cx="310" cy="177" r="1.23" fill="#eef2fb" opacity="0.42" style="animation: ceTwinkle 3.99s ease-in-out 0.89s infinite"/>
+  <circle cx="700" cy="150" r="1.26" fill="#eb6a00" opacity="0.38" style="animation: ceTwinkle 2.70s ease-in-out 1.44s infinite"/>
+  <circle cx="675" cy="164" r="0.44" fill="#eef2fb" opacity="0.77" style="animation: ceTwinkle 3.74s ease-in-out 2.22s infinite"/>
+  <circle cx="409" cy="50" r="0.88" fill="#eef2fb" opacity="0.55" style="animation: ceTwinkle 3.62s ease-in-out 2.05s infinite"/>
+  <circle cx="754" cy="81" r="1.02" fill="#eef2fb" opacity="0.58" style="animation: ceTwinkle 2.52s ease-in-out 0.43s infinite"/>
+  <circle cx="306" cy="195" r="1.18" fill="#eb6a00" opacity="0.32" style="animation: ceTwinkle 3.07s ease-in-out 2.20s infinite"/>
+  <circle cx="176" cy="26" r="0.79" fill="#eef2fb" opacity="0.32" style="animation: ceTwinkle 3.43s ease-in-out 2.85s infinite"/>
+  <circle cx="260" cy="14" r="0.42" fill="#eef2fb" opacity="0.41" style="animation: ceTwinkle 4.01s ease-in-out 0.08s infinite"/>
+  <circle cx="672" cy="193" r="0.95" fill="#eef2fb" opacity="0.77" style="animation: ceTwinkle 2.28s ease-in-out 0.95s infinite"/>
+  <circle cx="199" cy="61" r="0.63" fill="#eef2fb" opacity="0.70" style="animation: ceTwinkle 2.01s ease-in-out 1.85s infinite"/>
+  <circle cx="101" cy="49" r="0.80" fill="#eef2fb" opacity="0.51" style="animation: ceTwinkle 3.61s ease-in-out 2.50s infinite"/>
+  <circle cx="182" cy="53" r="1.23" fill="#eef2fb" opacity="0.52" style="animation: ceTwinkle 4.36s ease-in-out 1.05s infinite"/>
+  <circle cx="458" cy="72" r="0.75" fill="#eef2fb" opacity="0.43" style="animation: ceTwinkle 3.98s ease-in-out 1.32s infinite"/>
+  <circle cx="221" cy="144" r="0.81" fill="#eef2fb" opacity="0.41" style="animation: ceTwinkle 3.48s ease-in-out 1.38s infinite"/>
+  <circle cx="235" cy="169" r="0.74" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 3.52s ease-in-out 1.14s infinite"/>
+  <circle cx="625" cy="124" r="0.88" fill="#eef2fb" opacity="0.55" style="animation: ceTwinkle 2.31s ease-in-out 2.99s infinite"/>
+  <circle cx="275" cy="96" r="0.51" fill="#eef2fb" opacity="0.75" style="animation: ceTwinkle 2.53s ease-in-out 0.18s infinite"/>
+  <circle cx="529" cy="5" r="0.61" fill="#eb6a00" opacity="0.50" style="animation: ceTwinkle 2.64s ease-in-out 1.30s infinite"/>
+  <circle cx="193" cy="16" r="0.60" fill="#eb6a00" opacity="0.71" style="animation: ceTwinkle 2.56s ease-in-out 1.64s infinite"/>
+  <circle cx="276" cy="74" r="1.11" fill="#eef2fb" opacity="0.68" style="animation: ceTwinkle 4.49s ease-in-out 2.43s infinite"/>
+  <circle cx="646" cy="24" r="0.75" fill="#eb6a00" opacity="0.40" style="animation: ceTwinkle 3.04s ease-in-out 1.52s infinite"/>
+  <circle cx="623" cy="101" r="0.93" fill="#eef2fb" opacity="0.53" style="animation: ceTwinkle 3.12s ease-in-out 1.15s infinite"/>
+  <circle cx="83" cy="165" r="1.26" fill="#eb6a00" opacity="0.41" style="animation: ceTwinkle 3.83s ease-in-out 1.95s infinite"/>
+  <circle cx="276" cy="62" r="0.79" fill="#eef2fb" opacity="0.79" style="animation: ceTwinkle 3.30s ease-in-out 1.40s infinite"/>
+  <circle cx="544" cy="40" r="0.97" fill="#eb6a00" opacity="0.56" style="animation: ceTwinkle 2.33s ease-in-out 0.14s infinite"/>
+  <circle cx="637" cy="110" r="0.93" fill="#eb6a00" opacity="0.52" style="animation: ceTwinkle 3.42s ease-in-out 1.98s infinite"/>
+  <circle cx="667" cy="133" r="1.27" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 2.73s ease-in-out 2.42s infinite"/>
+  <circle cx="578" cy="133" r="0.56" fill="#eef2fb" opacity="0.38" style="animation: ceTwinkle 2.08s ease-in-out 1.30s infinite"/>
+  <circle cx="228" cy="9" r="0.65" fill="#eef2fb" opacity="0.47" style="animation: ceTwinkle 3.02s ease-in-out 2.74s infinite"/>
+  <rect width="800" height="200" fill="url(#ceVig)"/>
+
+  <!-- sparkle divider -->
+  <g class="ce-div">
+    <line x1="250" y1="40" x2="382" y2="40" stroke="#eb6a00" stroke-width="1" opacity="0.7"/>
+    <line x1="418" y1="40" x2="550" y2="40" stroke="#eb6a00" stroke-width="1" opacity="0.7"/>
+    <path d="M 400 33 L 401.82 38.18 L 407 40 L 401.82 41.82 L 400 47 L 398.18 41.82 L 393 40 L 398.18 38.18 Z" fill="#f29d57"/>
+  </g>
+
+  <text class="ce-eyebrow" x="400" y="74" text-anchor="middle" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="5">THANKS FOR STOPPING BY</text>
+  <text class="ce-name" x="400" y="112" text-anchor="middle" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="1">Michelle 💜</text>
+  <text class="ce-socials" x="400" y="142" text-anchor="middle" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="2">GITHUB    ✦    LINKEDIN    ✦    WEBSITE    ✦    INSTAGRAM</text>
+  <text class="ce-credit" x="400" y="168" text-anchor="middle" fill="#c7a8ff" fill-opacity="0.6" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="3">CHARTED ON RYME.MD</text>
+</svg>

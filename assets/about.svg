@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <style>
+    
+    @keyframes ceTwinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+    @keyframes ceReveal { 0%, 5% { opacity: 0; transform: translateY(6px); } 18%, 90% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes ceWipe { 0%, 8% { transform: scaleX(0); } 24%, 90% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+
+    
+    .ce-eyebrow { animation: ceReveal 13s ease-out infinite; }
+    .ce-rule { animation: ceWipe 13s ease-out infinite; transform-box: fill-box; transform-origin: left center; animation-delay: 0.78s; }
+    .ce-bio { animation: ceReveal 13s ease-out infinite; }
+    .ce-bio-0 { animation-delay: 1.82s; }
+    .ce-bio-1 { animation-delay: 2.34s; }
+    .ce-bio-2 { animation-delay: 2.86s; }
+    .ce-bio-3 { animation-delay: 3.38s; }
+    .ce-meta { animation: ceReveal 13s ease-out infinite; animation-delay: 4.42s; }
+    
+  </style>
+
+  <defs>
+    <linearGradient id="ceSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a263f"/>
+      <stop offset="0.55" stop-color="#230d28"/>
+      <stop offset="1" stop-color="#120715"/>
+    </linearGradient>
+    <radialGradient id="ceVig" cx="0.5" cy="0.42" r="0.78">
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#ceSky)"/>
+  <circle cx="329" cy="15" r="0.97" fill="#eb6a00" opacity="0.62" style="animation: ceTwinkle 4.16s ease-in-out 1.79s infinite"/>
+  <circle cx="798" cy="174" r="1.12" fill="#eef2fb" opacity="0.48" style="animation: ceTwinkle 4.16s ease-in-out 2.63s infinite"/>
+  <circle cx="800" cy="69" r="0.52" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 3.28s ease-in-out 1.40s infinite"/>
+  <circle cx="764" cy="164" r="0.43" fill="#eef2fb" opacity="0.50" style="animation: ceTwinkle 3.84s ease-in-out 1.14s infinite"/>
+  <circle cx="558" cy="30" r="0.92" fill="#eef2fb" opacity="0.51" style="animation: ceTwinkle 4.29s ease-in-out 0.47s infinite"/>
+  <circle cx="407" cy="60" r="0.91" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 3.38s ease-in-out 0.72s infinite"/>
+  <circle cx="54" cy="62" r="1.50" fill="#eef2fb" opacity="0.76" style="animation: ceTwinkle 4.42s ease-in-out 2.52s infinite"/>
+  <circle cx="668" cy="262" r="0.53" fill="#eef2fb" opacity="0.32" style="animation: ceTwinkle 4.44s ease-in-out 1.84s infinite"/>
+  <circle cx="720" cy="185" r="1.45" fill="#eef2fb" opacity="0.64" style="animation: ceTwinkle 3.41s ease-in-out 2.78s infinite"/>
+  <circle cx="569" cy="125" r="0.40" fill="#eef2fb" opacity="0.38" style="animation: ceTwinkle 4.45s ease-in-out 0.05s infinite"/>
+  <circle cx="706" cy="273" r="0.45" fill="#eef2fb" opacity="0.39" style="animation: ceTwinkle 2.46s ease-in-out 0.07s infinite"/>
+  <circle cx="716" cy="68" r="1.38" fill="#eb6a00" opacity="0.60" style="animation: ceTwinkle 3.06s ease-in-out 2.38s infinite"/>
+  <circle cx="217" cy="90" r="1.44" fill="#eef2fb" opacity="0.75" style="animation: ceTwinkle 4.48s ease-in-out 0.06s infinite"/>
+  <circle cx="166" cy="163" r="0.43" fill="#eb6a00" opacity="0.47" style="animation: ceTwinkle 4.23s ease-in-out 2.91s infinite"/>
+  <circle cx="150" cy="212" r="1.57" fill="#eef2fb" opacity="0.50" style="animation: ceTwinkle 2.02s ease-in-out 1.63s infinite"/>
+  <circle cx="45" cy="120" r="0.82" fill="#eef2fb" opacity="0.47" style="animation: ceTwinkle 3.96s ease-in-out 0.00s infinite"/>
+  <circle cx="261" cy="173" r="0.46" fill="#eb6a00" opacity="0.55" style="animation: ceTwinkle 4.47s ease-in-out 0.93s infinite"/>
+  <circle cx="643" cy="140" r="0.73" fill="#eef2fb" opacity="0.57" style="animation: ceTwinkle 2.45s ease-in-out 1.37s infinite"/>
+  <circle cx="76" cy="146" r="0.63" fill="#eef2fb" opacity="0.48" style="animation: ceTwinkle 3.56s ease-in-out 0.47s infinite"/>
+  <circle cx="163" cy="125" r="0.42" fill="#eb6a00" opacity="0.33" style="animation: ceTwinkle 3.26s ease-in-out 0.62s infinite"/>
+  <circle cx="513" cy="72" r="1.49" fill="#eef2fb" opacity="0.70" style="animation: ceTwinkle 2.37s ease-in-out 0.93s infinite"/>
+  <circle cx="534" cy="156" r="0.80" fill="#eef2fb" opacity="0.71" style="animation: ceTwinkle 3.67s ease-in-out 2.19s infinite"/>
+  <circle cx="764" cy="279" r="1.51" fill="#eef2fb" opacity="0.63" style="animation: ceTwinkle 4.41s ease-in-out 2.10s infinite"/>
+  <circle cx="787" cy="268" r="0.90" fill="#eef2fb" opacity="0.48" style="animation: ceTwinkle 2.66s ease-in-out 0.55s infinite"/>
+  <circle cx="357" cy="237" r="1.03" fill="#eef2fb" opacity="0.52" style="animation: ceTwinkle 3.94s ease-in-out 2.44s infinite"/>
+  <circle cx="786" cy="208" r="0.67" fill="#eef2fb" opacity="0.31" style="animation: ceTwinkle 3.55s ease-in-out 2.91s infinite"/>
+  <circle cx="738" cy="128" r="1.33" fill="#eef2fb" opacity="0.33" style="animation: ceTwinkle 2.43s ease-in-out 2.06s infinite"/>
+  <circle cx="171" cy="155" r="0.66" fill="#eef2fb" opacity="0.70" style="animation: ceTwinkle 2.42s ease-in-out 2.51s infinite"/>
+  <circle cx="517" cy="32" r="1.19" fill="#eb6a00" opacity="0.41" style="animation: ceTwinkle 4.14s ease-in-out 0.59s infinite"/>
+  <circle cx="502" cy="109" r="0.48" fill="#eef2fb" opacity="0.75" style="animation: ceTwinkle 4.43s ease-in-out 1.00s infinite"/>
+  <circle cx="10" cy="68" r="0.98" fill="#eef2fb" opacity="0.55" style="animation: ceTwinkle 3.37s ease-in-out 2.08s infinite"/>
+  <circle cx="477" cy="8" r="0.42" fill="#eef2fb" opacity="0.46" style="animation: ceTwinkle 2.21s ease-in-out 2.97s infinite"/>
+  <circle cx="305" cy="143" r="1.27" fill="#eb6a00" opacity="0.66" style="animation: ceTwinkle 2.11s ease-in-out 2.67s infinite"/>
+  <circle cx="207" cy="15" r="1.13" fill="#eef2fb" opacity="0.65" style="animation: ceTwinkle 3.25s ease-in-out 1.58s infinite"/>
+  <circle cx="608" cy="18" r="1.01" fill="#eef2fb" opacity="0.54" style="animation: ceTwinkle 3.54s ease-in-out 2.53s infinite"/>
+  <circle cx="706" cy="183" r="1.28" fill="#eef2fb" opacity="0.80" style="animation: ceTwinkle 3.32s ease-in-out 0.31s infinite"/>
+  <circle cx="163" cy="173" r="0.78" fill="#eef2fb" opacity="0.33" style="animation: ceTwinkle 3.13s ease-in-out 1.33s infinite"/>
+  <circle cx="130" cy="226" r="0.95" fill="#eef2fb" opacity="0.57" style="animation: ceTwinkle 3.20s ease-in-out 0.15s infinite"/>
+  <circle cx="205" cy="37" r="0.94" fill="#eef2fb" opacity="0.76" style="animation: ceTwinkle 4.35s ease-in-out 2.83s infinite"/>
+  <circle cx="276" cy="172" r="0.54" fill="#eef2fb" opacity="0.60" style="animation: ceTwinkle 2.25s ease-in-out 2.44s infinite"/>
+
+  <!-- decorative mini-constellation -->
+  <line x1="636" y1="84" x2="686" y2="66" stroke="#eb6a00" stroke-width="1" opacity="0.4"/>
+  <line x1="686" y1="66" x2="726" y2="102" stroke="#eb6a00" stroke-width="1" opacity="0.4"/>
+  <line x1="726" y1="102" x2="700" y2="142" stroke="#eb6a00" stroke-width="1" opacity="0.4"/>
+  <line x1="700" y1="142" x2="754" y2="132" stroke="#eb6a00" stroke-width="1" opacity="0.4"/>
+  <circle cx="636" cy="84" r="2.2" fill="#f29d57" opacity="0.85" style="animation: ceTwinkle 2.0s ease-in-out 0.00s infinite"/>
+  <circle cx="686" cy="66" r="2.2" fill="#f29d57" opacity="0.85" style="animation: ceTwinkle 2.3s ease-in-out 0.20s infinite"/>
+  <circle cx="726" cy="102" r="2.2" fill="#f29d57" opacity="0.85" style="animation: ceTwinkle 2.6s ease-in-out 0.40s infinite"/>
+  <circle cx="700" cy="142" r="2.2" fill="#f29d57" opacity="0.85" style="animation: ceTwinkle 2.9s ease-in-out 0.60s infinite"/>
+  <circle cx="754" cy="132" r="2.2" fill="#f29d57" opacity="0.85" style="animation: ceTwinkle 3.2s ease-in-out 0.80s infinite"/>
+
+  <rect width="800" height="300" fill="url(#ceVig)"/>
+
+  <!-- eyebrow -->
+  <g class="ce-eyebrow">
+    <path d="M 53 60 L 54.3 63.7 L 58 65 L 54.3 66.3 L 53 70 L 51.7 66.3 L 48 65 L 51.7 63.7 Z" fill="#eb6a00"/>
+    <text x="68" y="70" fill="#eb6a00" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="4">ABOUT</text>
+  </g>
+  <rect class="ce-rule" x="48" y="82" width="140" height="1.5" fill="#eb6a00" opacity="0.6"/>
+
+  <!-- bio -->
+  <text class="ce-bio ce-bio-0" x="48" y="128" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="15">I&apos;m a creative professional passionate about combining design,</text>
+  <text class="ce-bio ce-bio-1" x="48" y="154" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="15">technology, and problem-solving to build meaningful digital</text>
+  <text class="ce-bio ce-bio-2" x="48" y="180" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="15">experiences. I&apos;m expanding my technical skills to grow into</text>
+  <text class="ce-bio ce-bio-3" x="48" y="206" fill="#eef2fb" font-family="Georgia, 'Times New Roman', serif" font-size="15">Multimedia Engineering.</text>
+
+  <!-- meta -->
+  <text class="ce-meta" x="48" y="262" fill="#c7a8ff" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="1.5">DIGITAL CREATIVE &amp; TECH EXPLORER    ✦    DESIGNER · COLOMBIA</text>
+</svg>
